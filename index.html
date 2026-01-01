@@ -1221,7 +1221,7 @@
             <summary>Investor Context (read more)</summary>
             <p>
               This internal benchmark supports continued optimization and informs the Phase III kickoff. It does not
-              constitute a guarantee of regulatory clearance or future performance.
+              constitute a guarantee of regulatory clearance or future performance.<br>
             </p>
           </details>
         </div>
@@ -1241,15 +1241,24 @@
             <div class="card col-6" style="box-shadow:none;">
               <div class="metricVal">3–5×</div>
               <div class="metricLabel">Processing efficiency</div>
+				
             </div>
-          </div>
+			</div>
+			
+          <details data-track="validation-expand">
+            <summary>AUC & MCC Defined</summary>
+            <p> <strong> AUC (Area Under the Curve) </strong>is a core metric for machine learning models that  summarizes how correctly a model is able to differentiate between classes of interest. It ranges from 0 to 1 with 0.5 being the same predictive power as random guessing and 1 being a perfect model. It is a scale free metric meaning it is independent of thresholds and class balance, unlike accuracy. This makes it a better measurement of the underlying strength of the signal.&nbsp;</p>
+            <p><strong>MCC (Matthews Correlation Coefficient) </strong>is a core metric for classification models that summarizes how well predicted labels agree with true labels across all four outcomes (TP, TN, FP, FN). It ranges from −1 to 1, where 0 corresponds to random prediction, 1 to perfect prediction, and −1 to perfectly wrong prediction. Because it incorporates all four confusion-matrix terms symmetrically, it naturally balances precision and recall (and their negatives), remains informative under class imbalance, and evaluates performance at a concrete decision threshold—making it a more faithful measure of decision quality than accuracy and more decision-relevant than threshold-free metrics like AUC.<br>
+            </p>
+          </details>
+
         </div>
 		  
       </div>
 		    <div class="container">
       <h3>Clinical Performance Update: Comparative Benchmark Analysis</h3>
-      <p class="lede reveal"> AUC stands for Area Under the Curve and is a numerical representation of sensitivity versus specificity.&nbsp;</p>
-      <p class="lede reveal">These improvements confirm that our model is on track for an AUC of >0.8 as we continue development through Phase III. To contextualize this score, the FDA target is 0.7, and 0.628 already represents an improvement against the current gold standard for diagnosis, the CAPS-5 along with other clinician measures administeq12red via long-form clinical interviews. While we have seen higher AUC scores/accuracy this is our most robust model and we suspect this will be our best- the one we submit to FDA. It has only been trained on a subset of our data, and will continue to improve.
+      <p> AUC stands for Area Under the Curve and is a numerical representation of sensitivity versus specificity.</p>
+      <p>These improvements confirm that our model is on track for an AUC of >0.8 as we continue development through Phase III. To contextualize this score, the FDA target is 0.7, and 0.628 already represents an improvement against the current gold standard for diagnosis, the CAPS-5 along with other clinician measures administeq12red via long-form clinical interviews. While we have seen higher AUC scores/accuracy this is our most robust model and we suspect this will be our best- the one we submit to FDA. It has only been trained on a subset of our data, and will continue to improve.
 </p>
     </div>
   </section>
