@@ -30,4 +30,4 @@ https://sarafluegel-creativedirector.github.io/senseye-view-2025-executive-wrap-
 
 Contents
 index.html: The main file.
-assets/: All visual data charts, employee highlights, and branding assets.
+All visual data charts, graphics, and branding assets.
